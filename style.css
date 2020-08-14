@@ -30,13 +30,41 @@ hr{
 	background-color: red;
 }
 
-.img-box
+.profile-pic
+{
+    margin-top: 25px;
+}
+
+.profile-pic .img-box
 {
     opacity: 1;
     display: block;
     position: relative;
 }
 
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+}
+
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.profile-pic h5
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+}
+
+.img-box:hover ul
+{
+    opacity: 1;
+}
 
 
 #card{
