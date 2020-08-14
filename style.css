@@ -29,6 +29,16 @@ hr{
 	width: 10%;
 	background-color: red;
 }
+
+.img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+
+
 #card{
 	background-color: #01CBC6;
 }
